@@ -10,23 +10,23 @@ In real ML systems, models degrade over time because the world changes — custo
 
 ## Project Structure
 
+<pre>
 model-monitoring-project/
 ├── data/
-│   ├── raw.csv          # Original customer dataset
-│   └── drifted.csv      # Drift-simulated dataset
+│   ├── raw.csv          
+│   └── drifted.csv      
 ├── src/
-│   ├── generate_data.py # Synthetic dataset generation
-│   ├── train.py         # Initial model training
-│   ├── drift.py         # Drift simulation
-│   ├── evaluate.py      # Performance comparison
-│   └── retrain.py       # Automated retraining logic
+│   ├── generate_data.py 
+│   ├── train.py         
+│   ├── drift.py         
+│   ├── evaluate.py      
+│   └── retrain.py       
 ├── models/
-│   ├── model.pkl        # Trained model
-│   └── encoders.pkl     # Label encoders
-├── app.py               # Streamlit dashboard
+│   ├── model.pkl        
+│   └── encoders.pkl     
+├── app.py               
 └── README.md
-
----
+</pre>
 
 ## Results
 
